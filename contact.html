@@ -9,52 +9,67 @@
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- nav bar -->
 <body>
     <header>
-        <a href=""><!-- add homepage -->
-            <img src="FGRLogo.jpg" alt="Logo of Farran Ginnity-Rynne">
-        </a>
+        <!-- <a href="index.html">
+            <img src="fgrLogo.jpg" alt="Logo of Farran Ginnity-Rynne">
+        </a> -->
         <nav>
-            <a href="home.html">Home</a> <!--  add homepage -->
-            <a href="Contact.html">Contact Me</a> <!-- add contact page -->
+            <a href="index.html">Home</a> 
+            <a href="contact.html">Contact Me</a> 
         </nav>
-    
+    </header>
+   
     <div id="page-container">
     <div id="content-wrap">
-            
-            <h3>Get in Touch</h3>
+
+<!-- Contact form -->  
+        <section class="contact form">        
+            <h1 class="get_in">Get in Touch</h1>
+
+            <form action="https://formspree.io/f/xdoryvoj" method="POST">
             <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                <label for="Name" class="fcf-label">Your name</label>
-                <div class="fcf-input-group">
+            
+            
+                <label for="Name" class="form_label">Your name</label>
+                <div class="form_box">
                     <input type="text" id="Name" name="Name" placeholder="Your Name Here" class="fcf-form-control" required>
                 </div>
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" placeholder="Your Email Address Here" class="fcf-form-control" required>
-                    </div>
-                    <div class="fcf-form-group">
-                        <label for="Message" class="fcf-label">Your message</label>
-                        <div class="fcf-input-group">
-                            <textarea id="Message" name="Message" placeholder="Type Your Message Here" class="fcf-form-control" rows="6" maxlength="3000"
-                                required></textarea>
-                        </div>
-                    </div>
-                    <div class="fcf-form-group">
-                        <button type="submit" id="fcf-button"
-                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-                    </div>
+
+
+            
+                <label for="Email" class="form_label">Your email address</label>
+                <div class="form_box">
+                    <input type="email" id="Email" name="Email" placeholder="Your Email Here" class="fcf-form-control" required>
                 </div>
-            </div>
+
+                    
+                <label for="Message" class="form_label">Your message</label>
+                <div class="form_box">
+                    <textarea id="Message" name="Message" placeholder="Type Your Message Here" class="fcf-form-control" rows="6" maxlength="3000"
+                        required></textarea>
+                </div>
+
+
+                <button type="submit" id="fcf-button"
+                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        
+            
+        </form>
+
+<!-- Footer -->
     <footer class="footer">
         <div class="socials">
             <a href="https://www.linkedin.com/in/farran-ginnity-rynne-753659295/">
-                <img src="Linkedin.png" alt="To LinkedIn">
+                <img src="linkedin.png" alt="To LinkedIn">
             </a>
             <a href="https://github.com/FarGR">
                 <img src="github.png" alt="To github">
             </a>
         </div>   
     </footer>
+
 </body>
 </html>
