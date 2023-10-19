@@ -28,29 +28,33 @@ desktop screen sizes (multiple screenshots per page and screen size).
 > You can do this by saving the images in a folder in your repo, and including
 them in your readme document with the following Markdown code:
 
+
+All screenshots can be found on https://github.com/fargr/fargr.github.io/tree/main/screenshots
+fargr.github.io/screenshots
+
 #### {{ full_screen_homepage.png }}
-![ {{ Fullscreen image of homepage }} ]( {{ ./relative_path_to_file }} )
+![ {{ Fullscreen image of homepage }} ]
 #### {{ full_screen_contact.png }}
-![ {{ Fullscreen image of contact page }} ]( {{ ./relative_path_to_file }} )
+![ {{ Fullscreen image of contact page }} ]
 #### {{ full_screen_contact2.png }}
-![ {{ 2nd fullscreen image of contact page }} ]( {{ ./relative_path_to_file }} )
+![ {{ 2nd fullscreen image of contact page }} ]
 
 #### {{ ipadmini_homepage.png }}
-![ {{ Screenshot of homepage in tablet size (ipadmini) }} ]( {{ ./relative_path_to_file }} )
+![ {{ Screenshot of homepage in tablet size (ipadmini) }} ]
 #### {{ ipadmini_homepage2.png }}
-![ {{ 2nd screenshot of homepage in tablet size (ipadmini) }} ]( {{ ./relative_path_to_file }} )
+![ {{ 2nd screenshot of homepage in tablet size (ipadmini) }} ]
 #### {{ ipadmini_contact.png  }}
-![ {{ Screenshot of contact page in tablet size (ipadmini) }} ]( {{ ./relative_path_to_file }} )
+![ {{ Screenshot of contact page in tablet size (ipadmini) }} ]
 #### {{ ipadmini_contact2.png }}
-![ {{ 2nd creenshot of contact page in tablet size (ipadmini)}} ]( {{ ./relative_path_to_file }} )
+![ {{ 2nd creenshot of contact page in tablet size (ipadmini)}} ]
 
 #### {{ phone_hompage.png }}
-![ {{ Screenshot of homepage as would be seen on a phone}} ]( {{ ./relative_path_to_file }} )
+![ {{ Screenshot of homepage as would be seen on a phone}} ]
 #### {{ phone_hompage2.png }}
-![ {{2nd screenshot of homepage as would be seen on a phone}} ]( {{ ./relative_path_to_file }} )
+![ {{2nd screenshot of homepage as would be seen on a phone}} ]
 #### {{ phone_hompage3.png  }}
-![ {{ 3rd screenshot of homepage as would be seen on a phone}} ]( {{ ./relative_path_to_file }} )
+![ {{ 3rd screenshot of homepage as would be seen on a phone}} ]
 #### {{ phone_contact.png .png }}
-![ {{ Screenshot of contact page as would be seen on a phone}} ]( {{ ./relative_path_to_file }} )
+![ {{ Screenshot of contact page as would be seen on a phone}} ]
 #### {{ phone_contact.png }}
-![ {{ 2nd screenshot of contact page as would be seen on a phone }} ]( {{ ./relative_path_to_file }} )
+![ {{ 2nd screenshot of contact page as would be seen on a phone }} ]
